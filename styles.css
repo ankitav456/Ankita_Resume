@@ -220,15 +220,13 @@ div.details-right {
 }
 
 .certificates p {
-    color: #6c6d6e;
-    font-style: italic;
-}
-
-.certificates  p {
+    /* color: #6c6d6e; */
+    /* font-style: italic; */
     color: #449399;
    text-decoration: none;
 }
-.certificates a p:hover {
+
+.certificates p:hover {
     color: #000;
     text-decoration: underline;
 }
