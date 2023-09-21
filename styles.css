@@ -18,7 +18,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    cursor: pointer;
+/*     cursor: pointer; */
 }
 
 header.head {
@@ -131,6 +131,7 @@ h2 {
     font-style: italic;
     margin: .3em 0;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .education h2 {
@@ -163,6 +164,7 @@ h2 {
 .project-experience a{
     color: #449399;
     text-decoration: none;
+    cursor: pointer;
 }
 .project-experience a:hover {
     color: #000;
@@ -224,6 +226,7 @@ div.details-right {
     /* font-style: italic; */
     color: #449399;
    text-decoration: none;
+    cursor: pointer;
 }
 
 .certificates p:hover {
