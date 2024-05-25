@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Dancing+Script:wght@700&family=Domine:wght@500&family=Dosis&family=Fira+Code:wght@300..700&family=Inconsolata:wght@300&family=Josefin+Sans:wght@200&family=Kalnia&family=Montserrat:wght@500&family=Noto+Serif&family=Pacifico&family=Space+Grotesk&family=Xanh+Mono&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Fira Code", monospace;
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
     font-size: 16px;
     background-color: rgb(240, 236, 236);
     position: relative;
@@ -18,7 +22,6 @@ body {
     width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-/*     cursor: pointer; */
 }
 
 header.head {
@@ -136,12 +139,24 @@ h2 {
 
 .education h2 {
     border-bottom: 4px solid #449399;
-    width: 22%;
+    width: 16%;
 }
 
 .education h3 {
     font-size: 20px;
     text-transform: uppercase;
+}
+/* --------------Work experience --------------------*/
+
+.work-experience h2{
+    border-bottom: 4px solid #449399;
+    width: 27%;
+    
+}
+.work-experience h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    
 }
 
 
@@ -149,7 +164,7 @@ h2 {
 
 .project-experience h2 {
     border-bottom: 4px solid #449399;
-    width: 24%;
+    width: 33%;
 }
 
 .project-experience h3 {
@@ -177,7 +192,7 @@ h2 {
 
 .referee h2 {
     border-bottom: 4px solid #449399;
-    width: 16.4%;
+    width: 12%;
 }
 
 .referee {
@@ -204,7 +219,7 @@ div.details-right {
 
 .skills h2 {
     border-bottom: 4px solid #449399;
-    width: 12.5%;
+    width: 26%;
 }
 
 
@@ -212,7 +227,7 @@ div.details-right {
 
 .certificates h2 {
     border-bottom: 4px solid #449399;
-    width: 26.5%;
+    width: 50%;
 }
 
 .certificates h5 {
@@ -228,7 +243,9 @@ div.details-right {
    text-decoration: none;
     cursor: pointer;
 }
-
+.socials i{
+    margin-right: 8px;
+}
 .certificates p:hover {
     color: #000;
     text-decoration: underline;
@@ -246,7 +263,7 @@ section.languages {
 
 .languages-h2 {
     border-bottom: 4px solid #449399;
-    width: 23%;
+    width: 38%;
 }
 
 .language-right {
@@ -284,7 +301,7 @@ section.languages {
 
 .interests h2 {
     border-bottom: 4px solid #449399;
-    width: 20.5%;
+    width: 38%;
 }
 
 
