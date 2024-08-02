@@ -109,10 +109,15 @@ ul {
 }
 
 main.details {
+    width: 100%;
+    gap: 20px;
+    display: flex;
     background-color: #fff;
-    padding: 0 0em 0 5em;
+    padding: 0 100px;
 }
-
+.detail-left{
+    width: 75%;
+}
 h2 {
     color: #449399;
     margin: 1.1em 0 .5em 0;
@@ -139,7 +144,7 @@ h2 {
 
 .education h2 {
     border-bottom: 4px solid #449399;
-    width: 16%;
+    width: fit-content;
 }
 
 .education h3 {
@@ -150,7 +155,7 @@ h2 {
 
 .work-experience h2{
     border-bottom: 4px solid #449399;
-    width: 27%;
+    width:fit-content;
     
 }
 .work-experience h3{
@@ -164,7 +169,7 @@ h2 {
 
 .project-experience h2 {
     border-bottom: 4px solid #449399;
-    width: 33%;
+    width: fit-content;
 }
 
 .project-experience h3 {
@@ -192,7 +197,7 @@ h2 {
 
 .referee h2 {
     border-bottom: 4px solid #449399;
-    width: 12%;
+    width: fit-content;
 }
 
 .referee {
@@ -203,7 +208,7 @@ h2 {
 /*----styling for skills---*/
 
 div.details-right {
-    width: 100%;
+    width: 25%;
 }
 
 .skills button {
@@ -219,7 +224,7 @@ div.details-right {
 
 .skills h2 {
     border-bottom: 4px solid #449399;
-    width: 26%;
+    width: fit-content;
 }
 
 
@@ -227,7 +232,7 @@ div.details-right {
 
 .certificates h2 {
     border-bottom: 4px solid #449399;
-    width: 50%;
+    width: fit-content;
 }
 
 .certificates h5 {
@@ -263,7 +268,7 @@ section.languages {
 
 .languages-h2 {
     border-bottom: 4px solid #449399;
-    width: 38%;
+    width: fit-content;
 }
 
 .language-right {
@@ -301,7 +306,7 @@ section.languages {
 
 .interests h2 {
     border-bottom: 4px solid #449399;
-    width: 38%;
+    width: fit-content;
 }
 
 
@@ -409,7 +414,7 @@ footer a {
         width: 60%;
     }
     .skills h2 {
-        width: 19%;
+        width: fit-content;
     }
     .referee h2 {
         width: 44%;
